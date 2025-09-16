@@ -20,7 +20,6 @@ Este é um projeto de e-commerce para a faculdade, desenvolvido em React, com si
 - Font Awesome para ícones
 
 
- [http://localhost:3000](http://localhost:3000) 
 
 
 

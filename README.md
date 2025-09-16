@@ -1,6 +1,6 @@
 # TRADE CENTER - Supermercado Online
 
-Este é um projeto de e-commerce inspirado na Amazon, desenvolvido em React, com sistema de cadastro para clientes e funcionários, design responsivo e sistema de cashback.
+Este é um projeto de e-commerce para a faculdade, desenvolvido em React, com sistema de cadastro para clientes e funcionários, design responsivo e sistema de cashback.
 
 ## Funcionalidades
 

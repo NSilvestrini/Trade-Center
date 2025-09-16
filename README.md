@@ -19,8 +19,8 @@ Este é um projeto de e-commerce inspirado na Amazon, desenvolvido em React, com
 - JavaScript (ES6+)
 - Font Awesome para ícones
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+ [http://localhost:3000](http://localhost:3000) 
 
 
 

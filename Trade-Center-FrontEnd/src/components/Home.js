@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductCard from './ProductCard';
 import RegisterForm from './RegisterForm';
+import ProductList from './ProductList';
 
 function Home({ setCurrentView, addToCart }) {
     return (
@@ -17,43 +18,8 @@ function Home({ setCurrentView, addToCart }) {
             
             <div className="container">
                 <h2 className="section-title">Destaques</h2>
-                <div className="products">
-                    <ProductCard 
-                        id={1}
-                        name="Arroz Tipo 1 - 5kg" 
-                        price="22.90" 
-                        oldPrice="27.90" 
-                        cashback="5%" 
-                        image="https://prezunic.vtexassets.com/arquivos/ids/180742/65678a821ef3739680761582.jpg?v=638368812869870000"
-                        onAddToCart={addToCart}
-                    />
-                    <ProductCard 
-                        id={2}
-                        name="Café Premium - 500g" 
-                        price="15.90" 
-                        oldPrice="19.90" 
-                        cashback="7%" 
-                        image="https://prezunic.vtexassets.com/arquivos/ids/178518/65674ee20ed0163ddfa4457b.jpg?v=638368660302600000"
-                        onAddToCart={addToCart}
-                    />
-                    <ProductCard 
-                        id={3}
-                        name="Azeite de Oliva - 500ml" 
-                        price="29.90" 
-                        oldPrice="35.90" 
-                        cashback="10%" 
-                        image="https://applicativa-marketplace-prod.s3.amazonaws.com/produtos/azeite-de-oliva-extra-virgem-cocinero-250ml-2.webp"
-                        onAddToCart={addToCart}
-                    />
-                    <ProductCard 
-                        id={4}
-                        name="Leite Integral - 12 unidades" 
-                        price="25.90" 
-                        oldPrice="29.90" 
-                        cashback="3%" 
-                        image="https://m.media-amazon.com/images/I/71r+BXax3SL.jpg"
-                        onAddToCart={addToCart}
-                    />
+                <div>
+                   <ProductList />
                 </div>
                 
                 <h2 className="section-title">Ofertas Especiais</h2>
